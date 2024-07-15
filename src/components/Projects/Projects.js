@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Drvoice from "./voicedr.jpg";
 import crop from "./cropdisease.jpg"
 import cafe from "./Cafe.png";
 import Faceswap from "./Faceswap.png"
