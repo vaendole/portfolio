@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Drvoice from "./voicedr.jpg";
 import crop from "./cropdisease.jpg"
-import chat from "./chatapplication.jpg";
+import cafe from "./Cafe.png";
 import Faceswap from "./Faceswap.png"
 
 
@@ -41,6 +41,17 @@ function Projects() {
               ghLink="https://github.com/vaendole/FaceSwappingProject"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cafe}
+              isBlog={false}
+              title="Cafe Managment System"
+              description="Cafe management system is used for maintaining the details, Sales, billing and maintains an inventory for the Cafe. Coffee Shop Management System is based on a concept to maintain orders and management. of a particular coffee shop. There are two sections in this project, they are Coffee Ordering and. Admin panel. By using this system, he/she can maintain ordering records of a day."
+              ghLink="https://github.com/vaendole/Cafe-Managment"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
